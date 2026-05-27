@@ -23,3 +23,14 @@ export ANTHROPIC_API_KEY=your_api_key_here
 ```bash
 node index.mjs
 ```
+
+## Output
+
+The script prints the agent's response followed by token usage from the `result` message:
+
+```
+- index.mjs
+- package.json
+- README.md
+Tokens used: { input_tokens: 412, output_tokens: 18, cache_read_input_tokens: 0, cache_creation_input_tokens: 0 }
+```
