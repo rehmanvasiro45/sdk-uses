@@ -11,5 +11,6 @@ for await (const message of query({
 })) {
   if (message.type === "result") {
     console.log(message.result);
+    console.log("Tokens used:", message.usage);
   }
 }
